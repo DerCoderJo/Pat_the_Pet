@@ -1,0 +1,52 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Pat the Pet",
+        "description": "Pat Pet's :3",
+        "uuid": "90dd62cd-35dd-3ed2-52ac-97b714cd8cfb",
+        "version": [
+            1,
+            0,
+            1
+        ],
+        "min_engine_version": [
+            1,
+            17,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "fa6dc307-9867-df20-5436-16fdef064d3f",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "eba6af1f-12ce-4b27-a29a-c291a0ccdab8",
+            "version": [
+                1,
+                0,
+                0
+            ],
+            "entry": "scripts/index.js"
+        }
+    ],
+    "metadata": {
+        "authors": [
+            "DerCoderJo"
+        ],
+        "url": "https://discord.gg/AqG9WRMDjp"
+    },
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.12.0-beta"
+        }
+    ]
+}
